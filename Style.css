@@ -1,0 +1,35 @@
+h1{
+    text-align:center;
+    font-family: Impact;
+}
+
+body{
+    background-image: url(limebackground.jpg);
+    background-repeat:repeat;
+    background-size: 100%;
+}
+
+@font-face {
+    font-family: Impact;
+    src: url(impact.ttf);
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lime;
+    border-color: green;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Impact;
+}
+
+img{
+    width: 200px;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
